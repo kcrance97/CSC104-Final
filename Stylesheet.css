@@ -1,0 +1,116 @@
+/*nav bar styling*/
+header {
+	list-style-type: none;
+	background-color: CornflowerBlue;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+	}
+
+header img {
+	height: 60px;
+	margin-left: 10px; 
+	margin-right: 50px;
+	}
+	
+header li {
+    margin: 20px;
+	}
+
+header li a {
+    color: white;
+    text-decoration: none;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	}
+/*end nav bar styling*/
+
+
+h1 {
+	font-family: brush script mt;
+	text-align: center;
+	font-size: 60px;
+	}
+	
+h3 {
+	font-family: arial;
+	}
+	
+p {
+	font-family: arial;
+	}
+	
+#contactPara {
+	text-align: center;
+	font-family: arial;
+	}
+
+footer {
+	text-align: center;
+	padding: 3px;
+	background-color: CornflowerBlue;
+	color: white;
+	}
+
+
+
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	
+	
+
+/*This is how I aligned my photo with the paragraph on the homepage*/
+.HP {
+	display: flex;
+	align-items: center;
+	justify-content: center
+	}
+
+img[src="Kaylee.jpg"] {
+	max-width: 25%;
+    max-height:15%;
+    float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+  
+.HPtext {
+	max-width: 25%;
+	}
+/*end image/paragraph alignment*/
+
+
+/* styling for table on timeline page*/
+#timelines {
+	font-family: Arial;
+	border-collapse: collapse;
+	width: 100%;
+	}
+
+#timelines td, #timelines th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	}
+
+#timelines tr:nth-child(even){background-color: #f2f2f2;}
+
+#timelines tr:hover {background-color: #ddd;}
+
+#timelines th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: cornflowerblue;
+	color: white;
+	}
+
+/*end timelines styling*/
